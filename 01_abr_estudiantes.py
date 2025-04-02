@@ -1,3 +1,5 @@
+# Programa ejemplo 
+
 def agregar_estudiante(estudiantes):
     """Agrega un nuevo estudiante a la lista."""
     nombre = input("Ingrese el nombre del estudiante: ")
@@ -21,6 +23,7 @@ def calcular_promedio(estudiante):
         return 0
     return sum(estudiante["calificaciones"]) / len(estudiante["calificaciones"])
 
+# FUNCION DE PROMEDIOS
 def mostrar_promedios_mayores(estudiantes, promedio_minimo):
     """Muestra los estudiantes con un promedio de calificaciones mayor al valor dado."""
     estudiantes_aprobados = []
